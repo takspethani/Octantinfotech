@@ -1,13 +1,16 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function Services() {
   return (
     <div>
-     <Navbar/>
-     services
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;

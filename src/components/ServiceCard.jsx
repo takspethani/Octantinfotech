@@ -8,24 +8,20 @@ function ServiceSection() {
   // Define the data array
   const data = [
     {
-      head: "We are Services Provider",
       image: img1,
       title: "App Development",
     },
     {
-      head: "Why Choose Us",
       image: img2,
       title: "Game Development",
     },
     {
-      head: "Testimonials",
       image: img3,
       title: "Web Development",
     },
     {
-      head: "Embark on Success With Octant's IT Solutions.",
       image: img4,
-      title: "UX Development",
+      title: "UI/UX Development",
     },
   ];
 
